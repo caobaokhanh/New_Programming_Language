@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/* custom react slick */
+.custom-slider button.slick-prev {
+	left: 0px;
+	top: 40%;
+	z-index: 10;
+}
+.custom-slider button.slick-next {
+	top: 40%;
+	right: 40px;
+	z-index: 10;
+}
+.custom-slider button.slick-prev::before {
+	color: rgb(53, 50, 50);
+	content: "\276E";
+	height: 60px;
+	width: 60px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.custom-slider button.slick-next::before {
+	color: rgb(53, 50, 50);
+	content: "\276F";
+	height: 60px;
+	width: 60px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.custom-slider-sm button.slick-prev {
+	left: 0px;
+	z-index: 10;
+}
+.custom-slider-sm button.slick-next {
+	right: 25px;
+	z-index: 10;
+}
+.custom-slider-sm button.slick-prev::before {
+	color: rgb(53, 50, 50);
+	content: "\276E";
+	height: 40px;
+	width: 40px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.custom-slider-sm button.slick-next::before {
+	color: rgb(53, 50, 50);
+	content: "\276F";
+	height: 40px;
+	width: 40px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-slider button.slick-prev {
+	left: 0px;
+	top: 68px;
+	z-index: 10;
+}
+.img-slider button.slick-next {
+	right: 22px;
+	top: 44%;
+	z-index: 10;
+}
+.img-slider button.slick-prev::before {
+	color: rgb(53, 50, 50);
+	content: "\276E";
+	height: 40px;
+	width: 40px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img-slider button.slick-next::before {
+	color: rgb(53, 50, 50);
+	content: "\276F";
+	height: 40px;
+	width: 40px;
+	font-size: 30px;
+	background: #9a9191;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* react-masonry-css */
+/* .my-masonry-grid {
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex;
+	margin-left: 0;
+	width: auto;
+}
+.my-masonry-grid_column {
+	padding-left: 0px; 
+	
+	background-clip: padding-box;
+} */
+
+/* Style your items */
+.my-masonry-grid_column > div {
+	/* change div to reference your elements you put in <Masonry> */
+	margin-bottom: 20px;
+}
+code {
+	white-space: initial;
+}
+
+/* custom video description */
+iframe {
+	display: block; /* iframes are inline by default */
+	/* background: #000; */
+	border: none; /* Reset default border */
+	height: 100vh; /* Viewport-relative units */
+	width: 100vw;
+}
+/* custom google translate */
+#google_translate_element .skiptranslate {
+	height: 28px;
+	overflow: hidden;
+}
+/* custom scroolbar */
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #edf2f7;
+	border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #cbd5e0;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

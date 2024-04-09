@@ -1,0 +1,15 @@
+export { default as Login } from "./Login";
+export { default as Home } from "./Home";
+export { default as PublicLayout } from "./PublicLayout";
+export { default as DetailProduct } from "./DetailProduct";
+export { default as Products } from "./Products";
+export { default as Blogs } from "./Blogs";
+export { default as Contact } from "./Contact";
+export { default as Services } from "./Services";
+export { default as FinalRegister } from "./FinalRegister";
+export { default as ResetPassword } from "./ResetPassword";
+export { default as DetailBlog } from "./DetailBlog";
+export { default as Trainning } from "./Trainning";
+export { default as DetailService } from "./DetailService";
+export { default as NoPage } from "./NoPage";
+export { default as Checkout } from "./Checkout";
